@@ -1,7 +1,8 @@
 {
+
   "type":         "module",
-  "name":         "@creepycoder/regexvalidator",
-  "version":      "1.0.0",
+  "name":         "@teamcoder/regexvalidator",
+  "version":      "1.0.1",
   "description":  "This module is small but easy to use. The purpose of this module is to check if a string can be validated via regular expressions.",
   "main":         "regexvalidator.js",
 
@@ -19,7 +20,7 @@
   "author":       "CreepyCoderMC",
   "license":      "CC BY-NC-ND 4.0",
   "homepage":     "https://github.com/CreepyCoderMC",
-  "url":          "https://github.com/CreepyCoderMC/mqtttopicvalidator/issues",
+  "url":          "https://github.com/CreepyCoderMC/regexvalidator/issues",
   "email":        "creepycodermc@gmail.com",
 
   "funding": {
@@ -29,7 +30,7 @@
 
   "repository": {
   "type":         "git",  
-  "url":          "https://github.com/CreepyCoderMC/mqtttopicvalidator"
+  "url":          "https://github.com/CreepyCoderMC/regexvalidator"
   },
 
   "scripts": {
@@ -43,6 +44,8 @@
 
   "os": [
                   "windows",
-                  "linux"
+                  "linux",
+                  "raspberrypi"
   ]
+
 }

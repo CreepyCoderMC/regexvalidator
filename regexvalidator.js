@@ -228,12 +228,13 @@
  /*     VERSION HISTORY
   *
   *     1.0.0       06 September 2022           Official first release
+  *     1.0.1       06 September 2022           Correcting documentation 
   */
 
  /* Validates if a string is valid with a regular expression
   * @param  { String  } source        The source string to be checked
   * @param  { String  } expression    The regular expression to use
-  * @return { Boolean }               The string passed/failed validation
+  * @return { Boolean }               Validation passed or failed
   */
 
 export default function regExIsValid( source , expression ) {
