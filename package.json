@@ -2,7 +2,7 @@
 
   "type":         "module",
   "name":         "@teamcoder/regexvalidator",
-  "version":      "1.0.2",
+  "version":      "1.0.3",
   "description":  "This module is small but easy to use. The purpose of this module is to check if a string can be validated via regular expressions.",
   "main":         "regexvalidator.js",
 
@@ -18,7 +18,7 @@
   ],
 
   "author":       "CreepyCoderMC",
-  "license":      "CC BY-NC-ND 4.0",
+  "license":      "CC-BY-NC-ND-4.0",
   "homepage":     "https://github.com/CreepyCoderMC",
   "url":          "https://github.com/CreepyCoderMC/regexvalidator/issues",
   "email":        "creepycodermc@gmail.com",
