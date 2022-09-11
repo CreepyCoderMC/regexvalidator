@@ -231,6 +231,7 @@
   *     1.0.1       06 September 2022           Correcting documentation
   *     1.0.2       09 September 2022           Fixed package.json so that npm can install on any os 
   *     1.0.3       10 September 2022           Fixed code to be proper npm package
+  *     1.0.4       11 September 2022           Removed Default from export function in regexvalidator.js file
   */
 
  /* Validates if a string is valid with a regular expression
@@ -240,11 +241,11 @@
   * @return { Boolean }               Validation passed or failed
   */
 
-export default function regExIsValid ( source , expression ) {
+export function regExIsValid ( source , expression ) {
 
     // RexEx search
-    const re                      = new RegExp(expression);
-    const searchResult            = re.exec(source);
+    const re                      = new RegExp( expression );
+    const searchResult            = re.exec(    source     );
 
     // Check if results is valid
     if( searchResult == null )    return false;
